@@ -1,0 +1,17 @@
+%typo-titles{
+    font-family: $typo-lato;
+    color: $color-white;
+    text-align: center;
+} 
+
+.titulos{
+    font-size: 40px;
+    @extend %typo-titles;
+    padding: 10px;
+}
+
+.titulos-twin{
+    font-size: 30px;
+    @extend %typo-titles;
+    text-decoration: none;
+}

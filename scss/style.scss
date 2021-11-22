@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family:'Lato', sans-serif;
+    background-image: url('../src/Assets/Background/fade.jpg'); 
+    margin: 0px; 
+    background-repeat: round;
+}
+
+//importados------->
+
+@import "Parciales/variables";
+@import "Parciales/mixins";
+@import "Parciales/extend";
+@import "Parciales/header";
+@import "Parciales/footer";
+@import "Parciales/index";
+
+

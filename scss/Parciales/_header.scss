@@ -1,0 +1,19 @@
+//Navbar ------
+
+.navigation-ok{
+    padding: 10px 10px;
+    font-size: 1.2rem;
+    &:hover{
+       background-color:$color-hover; 
+    }
+}
+
+//* Responsive mobile*/----------------------------->
+
+@media screen and (max-width: 480px) {
+    .text {font-size: 11px}
+    .navbar-brand {width: 65%;} 
+}
+
+@media screen and (min-width: 481px) {
+}

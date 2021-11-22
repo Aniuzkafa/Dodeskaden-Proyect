@@ -1,0 +1,13 @@
+@mixin container ($width, $height, $position, $border-radius, $margin, $padding){
+    width: $width;
+    height: $height;
+    position: $position;
+    border-radius: $border-radius;
+    margin: $margin;
+    padding: $padding;
+}
+
+.visit1, .visit2{
+    @include container(150px, 150px, absolute, 4px, 150px, 1rem 1rem);
+}
+     
